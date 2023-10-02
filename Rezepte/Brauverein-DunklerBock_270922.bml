@@ -5,13 +5,13 @@
     <Nr>0</Nr>
     <Name>Einmaischen</Name>
     <On>true</On>
-    <Halt>false</Halt>
-    <Call>false</Call>
+    <Halt>true</Halt>
+    <Call>true</Call>
     <SollTemp>57.0</SollTemp>
     <Time>10</Time>
     <MinTemp>-0.1</MinTemp>
     <MaxTemp>-0.1</MaxTemp>
-    <Kp>0.0</Kp>
+    <Kp>1.0</Kp>
     <Ki>0.0</Ki>
     <Kd>0.0</Kd>
     <OnTimePulse>0</OnTimePulse>
@@ -21,15 +21,15 @@
   </rast>
   <rast>
     <Nr>1</Nr>
-    <Name>Maltoserast</Name>
+    <Name>Eiweisrast</Name>
     <On>true</On>
     <Halt>false</Halt>
     <Call>false</Call>
-    <SollTemp>63.0</SollTemp>
-    <Time>45</Time>
+    <SollTemp>57.0</SollTemp>
+    <Time>10</Time>
     <MinTemp>-0.1</MinTemp>
     <MaxTemp>-0.1</MaxTemp>
-    <Kp>0.0</Kp>
+    <Kp>1.0</Kp>
     <Ki>0.0</Ki>
     <Kd>0.0</Kd>
     <OnTimePulse>0</OnTimePulse>
@@ -39,15 +39,15 @@
   </rast>
   <rast>
     <Nr>2</Nr>
-    <Name>Verzuckerungsrast</Name>
+    <Name>Maltoserast</Name>
     <On>true</On>
     <Halt>false</Halt>
     <Call>false</Call>
-    <SollTemp>72.0</SollTemp>
-    <Time>30</Time>
+    <SollTemp>63.0</SollTemp>
+    <Time>45</Time>
     <MinTemp>-0.1</MinTemp>
     <MaxTemp>-0.1</MaxTemp>
-    <Kp>0.0</Kp>
+    <Kp>1.0</Kp>
     <Ki>0.0</Ki>
     <Kd>0.0</Kd>
     <OnTimePulse>0</OnTimePulse>
@@ -57,15 +57,15 @@
   </rast>
   <rast>
     <Nr>3</Nr>
-    <Name>Abmaischen</Name>
+    <Name>Verzuckerungsrast</Name>
     <On>true</On>
     <Halt>false</Halt>
     <Call>false</Call>
-    <SollTemp>76.0</SollTemp>
-    <Time>1</Time>
+    <SollTemp>72.0</SollTemp>
+    <Time>30</Time>
     <MinTemp>-0.1</MinTemp>
     <MaxTemp>-0.1</MaxTemp>
-    <Kp>0.0</Kp>
+    <Kp>1.0</Kp>
     <Ki>0.0</Ki>
     <Kd>0.0</Kd>
     <OnTimePulse>0</OnTimePulse>
@@ -75,30 +75,30 @@
   </rast>
   <rast>
     <Nr>4</Nr>
-    <Name>Perle</Name>
+    <Name>Abmaischen</Name>
     <On>true</On>
     <Halt>true</Halt>
     <Call>true</Call>
-    <SollTemp>100.0</SollTemp>
-    <Time>0</Time>
-    <MinTemp>-5.0</MinTemp>
-    <MaxTemp>5.0</MaxTemp>
-    <Kp>0.0</Kp>
+    <SollTemp>77.0</SollTemp>
+    <Time>5</Time>
+    <MinTemp>-0.1</MinTemp>
+    <MaxTemp>0.1</MaxTemp>
+    <Kp>1.0</Kp>
     <Ki>0.0</Ki>
     <Kd>0.0</Kd>
     <OnTimePulse>0</OnTimePulse>
     <OffTimePulse>0</OffTimePulse>
     <MaxGradient>0.0</MaxGradient>
-    <Info>Hopfen: Perle Alpha: 11 Menge: 0.1419 </Info>
+    <Info></Info>
   </rast>
   <rast>
     <Nr>5</Nr>
-    <Name>Perle</Name>
+    <Name>Laeutern</Name>
     <On>true</On>
     <Halt>true</Halt>
     <Call>true</Call>
-    <SollTemp>100.0</SollTemp>
-    <Time>85</Time>
+    <SollTemp>20.0</SollTemp>
+    <Time>1</Time>
     <MinTemp>-5.0</MinTemp>
     <MaxTemp>5.0</MaxTemp>
     <Kp>0.0</Kp>
@@ -107,54 +107,54 @@
     <OnTimePulse>0</OnTimePulse>
     <OffTimePulse>0</OffTimePulse>
     <MaxGradient>0.0</MaxGradient>
-    <Info>Hopfen: Perle Alpha: 11 Menge: 0.1076 </Info>
+    <Info></Info>
   </rast>
   <rast>
     <Nr>6</Nr>
-    <Name>Nachkochen</Name>
+    <Name>Kochen</Name>
     <On>true</On>
     <Halt>true</Halt>
     <Call>true</Call>
-    <SollTemp>100.0</SollTemp>
-    <Time>5</Time>
-    <MinTemp>-5.0</MinTemp>
+    <SollTemp>99.0</SollTemp>
+    <Time>1</Time>
+    <MinTemp>2.0</MinTemp>
     <MaxTemp>5.0</MaxTemp>
     <Kp>0.0</Kp>
     <Ki>0.0</Ki>
     <Kd>0.0</Kd>
     <OnTimePulse>0</OnTimePulse>
     <OffTimePulse>0</OffTimePulse>
-    <MaxGradient>1.0</MaxGradient>
-    <Info></Info>
+    <MaxGradient>0</MaxGradient>
+    <Info>Hopfen: Perle Alpha: 11 Menge: 141g </Info>
   </rast>
   <rast>
     <Nr>7</Nr>
-    <Name>Whirlpool</Name>
+    <Name>Bitterhopfen</Name>
     <On>true</On>
     <Halt>true</Halt>
     <Call>true</Call>
-    <SollTemp>0.0</SollTemp>
-    <Time>20</Time>
-    <MinTemp>-0.1</MinTemp>
-    <MaxTemp>0.1</MaxTemp>
+    <SollTemp>99.0</SollTemp>
+    <Time>80</Time>
+    <MinTemp>2.0</MinTemp>
+    <MaxTemp>5.0</MaxTemp>
     <Kp>0.0</Kp>
     <Ki>0.0</Ki>
     <Kd>0.0</Kd>
     <OnTimePulse>0</OnTimePulse>
     <OffTimePulse>0</OffTimePulse>
-    <MaxGradient>1.0</MaxGradient>
-    <Info></Info>
+    <MaxGradient>0</MaxGradient>
+    <Info>Hopfen: Perle Alpha:11 Menge 108g</Info>
   </rast>
   <rast>
     <Nr>8</Nr>
-    <Name>Rast9</Name>
-    <On>false</On>
-    <Halt>false</Halt>
-    <Call>false</Call>
-    <SollTemp>0.0</SollTemp>
-    <Time>0</Time>
-    <MinTemp>-0.1</MinTemp>
-    <MaxTemp>0.1</MaxTemp>
+    <Name>Aromahopfen</Name>
+    <On>true</On>
+    <Halt>true</Halt>
+    <Call>true</Call>
+    <SollTemp>99.0</SollTemp>
+    <Time>5</Time>
+    <MinTemp>2.0</MinTemp>
+    <MaxTemp>5.0</MaxTemp>
     <Kp>0.0</Kp>
     <Ki>0.0</Ki>
     <Kd>0.0</Kd>
@@ -189,8 +189,8 @@
     <Call>false</Call>
     <SollTemp>0.0</SollTemp>
     <Time>0</Time>
-    <MinTemp>-0.1</MinTemp>
-    <MaxTemp>0.1</MaxTemp>
+    <MinTemp>2.0</MinTemp>
+    <MaxTemp>5.0</MaxTemp>
     <Kp>0.0</Kp>
     <Ki>0.0</Ki>
     <Kd>0.0</Kd>
