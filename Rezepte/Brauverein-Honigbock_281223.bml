@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <recipe AppDevice="mikroSikaru.de" AppName="BrausteuerungApp" AppVersion="1.19">
-  <description>Name : Honig Bock  : 134.2 Malz Name : Pilsner Premium Malz Menge : 15.51 Malz Name : Munich Hell Malz Menge : 13.71 Malz Name : Vienna Malz Menge : 5.88 Malz Name : Caramunich II Malz Menge : 1.96 Malz Name : Carafa Special II Malz Menge : 0.71 Malz Name : Melanoidin Malz Menge : 0.71 Malz Name : Sauermalz Malz Menge : 0.71 Hefe Name: Saflager Lager Hefe Menge: 31 Name : Sudhaus Sudmenge : 134.2 </description>
+  <description>Name : Honig Bock  : 150L HG 100L NG 90L 
+  Pilsner Premium Malz Menge : 26.1kg 
+  Munich Hell Malz Menge : 7.2 Malz  
+  Cara hell  Malz Menge : 2kg 
+  Cara dunkel Malz Menge : 1.3 
+  Sauermalz Malz Menge : 0.73kg 
+  Hefe Name: W34 70 (Schanze Kulmbach) Menge: 31 Name : Sudhaus Sudmenge : 150L </description>
   <rast>
     <Nr>0</Nr>
     <Name>Einmaischen</Name>
