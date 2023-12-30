@@ -153,12 +153,12 @@
   </rast>
   <rast>
     <Nr>8</Nr>
-    <Name>Aromahopfen</Name>
-    <On>false</On>
-    <Halt>false</Halt>
-    <Call>false</Call>
+    <Name>Nachkochen</Name>
+    <On>true</On>
+    <Halt>true</Halt>
+    <Call>true</Call>
     <SollTemp>99.0</SollTemp>
-    <Time>5</Time>
+    <Time>15</Time>
     <MinTemp>2.0</MinTemp>
     <MaxTemp>5.0</MaxTemp>
     <Kp>0.0</Kp>
@@ -171,11 +171,11 @@
   </rast>
   <rast>
     <Nr>9</Nr>
-    <Name>Rast10</Name>
-    <On>false</On>
-    <Halt>false</Halt>
+    <Name>Honig zugabe</Name>
+    <On>true</On>
+    <Halt>true</Halt>
     <Call>false</Call>
-    <SollTemp>0.0</SollTemp>
+    <SollTemp>80.0</SollTemp>
     <Time>0</Time>
     <MinTemp>-0.1</MinTemp>
     <MaxTemp>0.1</MaxTemp>
@@ -185,7 +185,7 @@
     <OnTimePulse>0</OnTimePulse>
     <OffTimePulse>0</OffTimePulse>
     <MaxGradient>0.0</MaxGradient>
-    <Info></Info>
+    <Info>honig zugabe</Info>
   </rast>
   <rast>
     <Nr>10</Nr>
